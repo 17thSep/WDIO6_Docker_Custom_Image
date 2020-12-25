@@ -1,0 +1,24 @@
+{
+  "name": "WDIO6_Docker_Custom_Image",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio run wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^6.10.11"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^6.10.13",
+    "@wdio/mocha-framework": "^6.10.11",
+    "@wdio/spec-reporter": "^6.10.6",
+    "@wdio/sync": "^6.10.11",
+    "chromedriver": "^87.0.4",
+    "wdio-chromedriver-service": "^6.0.4",
+    "wdio-docker-service": "^3.0.0"
+  }
+}
